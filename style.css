@@ -299,8 +299,6 @@
     font-size: 13px;
 }
 
-.children-right h2 {}
-
 .children-right p {
     width: 80%;
     margin: 10px 0;
@@ -356,25 +354,347 @@
 
 .main-container {
     width: 100%;
-    margin-bottom: 100px;
-    background-color: black;
+    height: 500px;
+    margin-top: 50px;
 }
 
 .white-container {
-    width: 95%;
+    width: 80%;
+    margin-left: 120px;
     display: flex;
-    margin: auto;
-    margin-left: 130px;
 }
 
+
+/* biz buna position relativ verdik ki div-img buna nezeren hereket etsin */
+
 .four-div {
-    background-color: red;
-    width: 20%;
-    margin: 0.5%;
+    width: 24%;
+    position: relative;
+    margin: auto;
+    margin-top: -1px;
+    border-radius: 10px;
     justify-content: space-between;
+    box-shadow: 1px 1px 20px 1px rgba(56, 43, 43, 0.75);
+}
+
+.four-one {
+    position: relative;
 }
 
 .four-one img {
     width: 100%;
     padding: 6px;
+    border-radius: 15px;
+}
+
+.two-img img {
+    width: 60%;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.two-img {
+    width: 35px;
+    position: absolute;
+    height: 32px;
+    z-index: 1;
+    background-color: black;
+    border-radius: 50%;
+    top: 4%;
+    bottom: 0;
+    right: 7%;
+    border: 1px solid blue;
+}
+
+.two-img:hover {
+    background-color: white;
+    transition: 0.6s;
+}
+
+.five-img {
+    margin-top: -10px;
+    padding-left: 15px;
+}
+
+.main-container h2 {
+    width: 100%;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.main-container p {
+    margin-top: 10px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.noqte-container {
+    display: flex;
+    margin-top: -10px;
+    padding-left: 15px;
+    color: red;
+}
+
+.div-5 p {
+    font-size: 11px;
+}
+
+.paragraph {
+    margin: 0px 7px;
+}
+
+.paragraph p {
+    margin-top: -15px;
+    font-size: 30px;
+    color: #3AD4D8;
+}
+
+.name p {
+    font-size: 11px;
+}
+
+.h2-p {
+    width: 100%;
+    font-size: 20px;
+}
+
+.h2-p p {
+    margin: 10px;
+    margin-left: 15px;
+    width: 90%;
+}
+
+.manat {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.button {
+    width: 45%;
+}
+
+.button button {
+    width: 100%;
+    margin-left: 15px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 15px;
+    transition: 0.6s;
+}
+
+.button :hover {
+    background-color: blue;
+    color: white;
+}
+
+.azn {
+    margin-right: 15px;
+    margin-top: -5px;
+    display: flex;
+    color: #3AD4D8;
+    font-weight: bold;
+}
+
+.azn p {
+    padding-bottom: 10px;
+}
+
+.ay {
+    margin-left: 3px;
+}
+
+.ay p {
+    font-size: 10px;
+}
+
+.wifi {
+    width: 24%;
+    position: relative;
+    margin: auto;
+    margin-top: -1px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.h2-b {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.but {
+    width: 45%;
+}
+
+.but button {
+    width: 100%;
+    margin-left: 15px;
+    background-color: blue;
+    border: 1px solid gray;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 15px;
+    transition: 0.6s;
+}
+
+.but :hover {
+    background-color: white;
+    color: black;
+}
+
+.three {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.three img {
+    width: 100%;
+}
+
+.bar {
+    margin-right: 15px;
+    margin-top: -5px;
+    display: flex;
+    color: rgb(84, 7, 155);
+    font-weight: bold;
+}
+
+.padding {
+    width: 10%;
+    margin-left: 600px;
+    margin-bottom: 100px;
+}
+
+.padding button {
+    width: 100%;
+    margin-left: 15px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 7px 10px;
+    box-shadow: -1px 1px 12px 1px rgba(10, 9, 9, 0.75);
+    font-size: 15px;
+    border: 3px solid transparent;
+    transition: 0.6s;
+}
+
+.padding button:hover {
+    border-color: #3AD4D8;
+}
+
+.margin img {
+    width: 5%;
+    margin-top: -120px;
+    margin-left: 370px;
+}
+
+.margin {
+    margin-top: -70px;
+}
+
+.axundova {
+    width: 80%;
+    display: flex;
+    background-color: #E2EAF8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    height: 410px;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 50px;
+}
+
+.qeydiyyat {
+    width: 40%;
+    margin: 100px auto;
+    margin-left: 150px;
+}
+
+.qeydiyyat h6 {
+    color: #543EE9;
+    font-weight: bold;
+}
+
+.qeydiyyat h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.qeydiyyat p {
+    width: 100%;
+    font-size: 11.5px;
+}
+
+.qeydiyyat button {
+    background-color: #543EE9;
+    border: 0;
+    padding: 8px 20px;
+    border-radius: 20px;
+    color: white;
+    margin-top: 25px;
+}
+
+.naile {
+    width: 35%;
+    margin: 100px auto;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+
+.naile img {
+    width: 100%;
+}
+
+.tund-benovweyi {
+    width: 5%;
+    height: 40px;
+    margin-left: 400px;
+    position: absolute;
+    z-index: 1;
+    left: 55%;
+    top: 16%;
+}
+
+.tund-benovweyi img {
+    width: 100%;
+}
+
+.narinci {
+    width: 5%;
+    position: absolute;
+    z-index: 1;
+    left: 9%;
+    top: 19.5%;
+}
+
+.narinci img {
+    width: 100%;
+}
+
+.aciq-mavi {
+    width: 5%;
+    position: absolute;
+    z-index: 1;
+    left: 38%;
+    top: 75.5%
+}
+
+.aciq-mavi img {
+    width: 100%;
+}
+
+.lila {
+    width: 5%;
+    position: absolute;
+    z-index: 1;
+    left: 85%;
+    top: 81%
+}
+
+.lila img {
+    width: 100%;
 }
