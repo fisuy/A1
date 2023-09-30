@@ -775,3 +775,314 @@
     color: #D6A7F9;
     font-size: 29px;
 }
+
+.inci {
+    width: 4%;
+    margin-left: 310px;
+    margin-top: 90px;
+}
+
+.inci img {
+    width: 100%;
+}
+
+.alila {
+    width: 4%;
+    margin-left: 1240px;
+    margin-top: -55px;
+}
+
+.alila img {
+    width: 100%;
+}
+
+.online-imtahanlar {
+    width: 50%;
+    margin: 80px auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.label-container {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.black-container {
+    width: 75%;
+    margin-left: 120px;
+    margin: auto;
+    display: flex;
+}
+
+.parol {
+    width: 32%;
+    margin: 1%;
+    justify-content: space-between;
+    box-shadow: 1px 1px 20px 1px rgba(56, 43, 43, 0.75);
+}
+
+.kod {
+    width: 32%;
+    margin: 1%;
+    justify-content: space-between;
+}
+
+.eight img {
+    padding: 5px;
+    width: 100%;
+}
+
+.seven img {
+    width: 100%;
+}
+
+.vergul-container {
+    display: flex;
+    margin-top: 10px;
+    padding-left: 15px;
+    color: red;
+}
+
+.div-6 p {
+    font-size: 11px;
+}
+
+.abzas {
+    margin: 0px 7px;
+}
+
+.abzas p {
+    margin-top: -25px;
+    font-size: 30px;
+    color: #3AD4D8;
+}
+
+.surname p {
+    font-size: 11px;
+}
+
+.h3-b h2 {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.h3-b {
+    width: 100%;
+    font-size: 11px;
+}
+
+.h3-b p {
+    margin: 10px;
+    margin-left: 15px;
+    width: 94%;
+    margin-bottom: 40px;
+}
+
+.dollar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.euro {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.not {
+    width: 45%;
+}
+
+.not button {
+    width: 100%;
+    margin-left: 15px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 15px;
+    transition: 0.6s;
+}
+
+.not :hover {
+    background-color: blue;
+    color: white;
+}
+
+.kabinet {
+    margin-right: 15px;
+    display: flex;
+    margin-top: 5px;
+    color: #3AD4D8;
+    font-weight: bold;
+}
+
+.kabinet p {
+    padding-bottom: 10px;
+}
+
+.il {
+    margin-left: 3px;
+}
+
+.il p {
+    font-size: 10px;
+}
+
+.ton {
+    width: 45%;
+}
+
+.ton button {
+    width: 100%;
+    margin-left: 15px;
+    background-color: blue;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: white;
+    transition: 0.6s;
+}
+
+.ton :hover {
+    background-color: white;
+    color: black;
+}
+
+.vip {
+    margin-right: 15px;
+    display: flex;
+    margin-top: 5px;
+    color: #543EE9;
+    font-weight: bold;
+}
+
+.vip p {
+    padding-bottom: 10px;
+}
+
+.cografiya {
+    display: flex;
+    justify-content: space-between;
+    height: 550px;
+    background-color: black;
+    margin-bottom: 200px;
+}
+
+.uni {
+    width: 49%;
+    margin: 70px;
+    margin-top: 120px;
+}
+
+.uni h1 {
+    width: 50%;
+    font-weight: bold;
+    font-weight: 1000;
+    color: #181818;
+}
+
+.uni h6 {
+    font-size: 15px;
+    margin: 8px 0;
+}
+
+.uni p {
+    margin-bottom: 30px;
+}
+
+.uni button {
+    width: 25%;
+    margin-left: 5px;
+    background-color: #543EE9;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.uni button:hover {
+    background-color: #4c4b55;
+    color: black;
+    transition: 0.6s;
+}
+
+.friday {
+    width: 49%;
+    margin-top: 90px;
+    margin-left: 100px;
+    position: relative;
+    background-color: red;
+    height: 400px;
+}
+
+.yasil-img img {
+    position: absolute;
+    width: 17%;
+    z-index: 2;
+}
+
+.pantera-img img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 47%;
+}
+
+.orbit-pink img {
+    position: absolute;
+    width: 8%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.orbit-red img {
+    position: absolute;
+    width: 8%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+}
+
+.family-img img {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.circle-img img {
+    width: 8%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 6;
+}
+
+.replay img {
+    width: 2.5%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 7;
+}
