@@ -1357,3 +1357,172 @@
 .tund img {
     width: 100%;
 }
+
+.padding {
+    margin-top: 20px;
+}
+
+.cimi {
+    width: 4%;
+    margin-left: 150px;
+    margin-top: -160px;
+}
+
+.cimi img {
+    width: 100%;
+}
+
+.qlobal {
+    width: 4%;
+    float: right;
+    margin-right: 200px;
+    margin-top: -30px;
+}
+
+.qlobal img {
+    width: 100%;
+}
+
+.jane {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.cemistry {
+    width: 25%;
+    background-color: blue;
+    margin: 0.5%;
+    color: black;
+    background-color: white;
+    height: 330px;
+    box-shadow: -1px -1px 6px 1px rgba(115, 107, 107, 0.46);
+}
+
+.cemistry img {
+    width: 100%;
+}
+
+.cemistry h2 {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.cemistry p {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-bottom: 13px;
+}
+
+.cemistry h4 {
+    margin-left: 10px;
+    color: #FEAACA;
+}
+
+.cemistry h3 {
+    margin-top: -4px;
+    margin-left: 7px;
+    font-size: 12px;
+}
+
+.scroll {
+    width: 25%;
+    background-color: blue;
+    margin: 0.5%;
+    color: black;
+    background-color: white;
+    height: 350px;
+    box-shadow: -1px -1px 6px 1px rgba(115, 107, 107, 0.46);
+}
+
+.scroll img {
+    width: 100%;
+}
+
+.scroll h2 {
+    font-size: 10px;
+    width: 68%;
+    margin-left: 10px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.scroll p {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-bottom: 13px;
+}
+
+.scroll h4 {
+    margin-left: 10px;
+    margin-top: 30px;
+    color: #FEAACA;
+}
+
+.scroll h3 {
+    margin-top: -4px;
+    margin-left: 7px;
+    font-size: 12px;
+}
+
+.jonat {
+    width: 25%;
+    background-color: blue;
+    margin: 0.5%;
+    color: black;
+    background-color: white;
+    height: 330px;
+    box-shadow: -1px -1px 6px 1px rgba(115, 107, 107, 0.46);
+}
+
+.jonat img {
+    width: 100%;
+    padding: 7px;
+}
+
+.jonat h2 {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.jonat p {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-bottom: 13px;
+}
+
+.jonat h4 {
+    margin-left: 10px;
+    color: #FEAACA;
+}
+
+.jonat h3 {
+    margin-top: -4px;
+    margin-left: 7px;
+    font-size: 12px;
+}
+
+.finish {
+    width: 100%;
+    display: flex;
+    background-color: #671C7C;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.rbacade {
+    margin-top: 100px;
+    margin-right: 100px;
+    display: flex;
+}
+
+.son {
+    width: 10%;
+}
