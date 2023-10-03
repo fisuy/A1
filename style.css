@@ -1272,3 +1272,88 @@
 .incir img {
     width: 100%;
 }
+
+.ri-akademi {
+    width: 85%;
+    margin: auto;
+    margin-left: 120px;
+    height: 400px;
+    background-color: #E2EAF8;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.left-akademi {
+    width: 59%;
+    margin: 50px auto;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 80px;
+}
+
+.seo {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.seo h6 {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.left-akademi p {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.left-akademi h5 {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.right-akademi {
+    width: 39%;
+    margin: 60px auto;
+    margin-right: 100px;
+}
+
+.right-akademi img {
+    width: 100%;
+}
+
+.aciq {
+    width: 4%;
+    float: right;
+    margin-right: 430px;
+    margin-top: -80px;
+}
+
+.aciq img {
+    width: 100%;
+}
+
+.sertifikat {
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.sertifikat p {
+    width: 45%;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 390px;
+}
+
+.tund {
+    width: 4%;
+    float: right;
+    margin-right: 100px;
+    margin-top: -20px;
+}
+
+.tund img {
+    width: 100%;
+}
