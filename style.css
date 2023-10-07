@@ -454,11 +454,11 @@
     width: 90%;
     max-height: 0;
     overflow: hidden;
-    transition: all 1s ease-in-out;
+    transition: all 1s;
 }
 
 .h2-p:hover p {
-    max-height: 100%;
+    max-height: 250px;
 }
 
 .manat {
@@ -530,11 +530,13 @@
     margin: 10px;
     margin-left: 15px;
     width: 90%;
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 1s;
 }
 
 .h2-b:hover p {
-    display: block
+    max-height: 250px;
 }
 
 .but {
