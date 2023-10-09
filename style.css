@@ -724,14 +724,14 @@
 }
 
 .yol {
-    width: 70%;
+    width: 93%;
     display: flex;
     margin: auto;
     justify-content: space-between;
 }
 
 .flip-card {
-    width: 60%;
+    width: 40%;
     background-color: transparent;
     width: 300px;
     height: 300px;
@@ -746,6 +746,7 @@
     transition: transform 1s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
 }
 
 .flip-card:hover .flip-card-inner {
@@ -762,8 +763,12 @@
 }
 
 .flip-card-front {
-    background-color: gray;
     color: black;
+    border-radius: 20px;
+}
+
+.flip-card-front img {
+    border-radius: 20px;
 }
 
 .flip {
@@ -797,7 +802,6 @@
 }
 
 .flip-card-back {
-    background-color: white;
     color: black;
     transform: rotateY(180deg);
     margin-top: 90px;
@@ -917,7 +921,7 @@
 }
 
 .h4-c:hover p {
-    max-height: 100%;
+    max-height: 240px;
 }
 
 .h4-c p {
@@ -930,11 +934,13 @@
 .h3-b p {
     width: 100%;
     font-size: 11px;
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
 }
 
 .h3-b:hover p {
-    display: block;
+    max-height: 240px;
 }
 
 .h3-b p {
@@ -1710,4 +1716,31 @@
     font-weight: 300;
     width: 18%;
     text-align: center;
+}
+
+@media screen and(max-width:768px) {
+    .agil {
+        width: 100%;
+    }
+    .son {
+        width: 100%;
+    }
+    .nos {
+        width: 100%;
+    }
+    .rbacade {
+        width: 100%;
+    }
+}
+
+@media screen and(max-width:768px) {
+    .swiper-wrapper {
+        width: 100%;
+    }
+    .swiper-wrapper div {
+        width: 100%;
+    }
+    .swiper-slide {
+        width: 100%;
+    }
 }
