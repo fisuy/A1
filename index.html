@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
     <style>
         html,
         body {
@@ -52,7 +53,8 @@
         }
     </style>
 
-
+    <!-- jQuery copy script cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
 </head>
@@ -132,7 +134,10 @@
                 <img src="img/ellips-blue.svg" alt="">
             </div>
             <div class="replay">
-                <img src="img/replay.svg" alt="">
+                <!-- Burada yaradildi  fancyBox ona gore ki modul acilsin -->
+                <a data-fancybox href="https://www.youtube.com/embed/FZPmnw4Ws5A" title="YouTube video player">
+                    <img src="img/replay.svg" alt="">
+                </a>
 
             </div>
 
@@ -676,7 +681,6 @@
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
     </div>
     <div class="padding">
         <button>Hamısı</button>
@@ -808,6 +812,13 @@
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
+        });
+    </script>
+    <!-- FancyBox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready(function() {
+            $("[data-fancybox]").fancybox();
         });
     </script>
 
