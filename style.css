@@ -732,6 +732,7 @@
 
 .flip-card {
     width: 40%;
+    margin: 0.5%;
     background-color: transparent;
     width: 300px;
     height: 300px;
@@ -1189,20 +1190,23 @@
 .jane {
     width: 75%;
     display: flex;
-    margin-top: 50px;
     margin: auto;
+    margin-top: 50px;
     /* margin-left: 120px; */
     justify-content: space-between;
 }
 
 .riyaziyyat {
-    width: 33%;
-    margin: 1%;
-    color: black;
-    background-color: white;
-    padding: 20px;
+    width: 35%;
+    position: relative;
+    margin: auto;
+    margin-top: -1px;
+    border-radius: 10px;
+    justify-content: space-between;
     transition: 0.6s;
-    line-height: 19px;
+    margin: 0.5%;
+    padding: 20px;
+    color: black;
 }
 
 .riyaziyyat:hover {
@@ -1223,17 +1227,19 @@
 }
 
 .riyaziyyat:hover p {
-    max-height: 100%;
+    max-height: 100px;
 }
 
 .tarix {
-    width: 33%;
-    margin: 1%;
-    color: black;
-    background-color: white;
-    padding: 20px;
-    line-height: 19px;
+    width: 35%;
+    position: relative;
+    margin-top: -1px;
+    border-radius: 10px;
+    justify-content: space-between;
     transition: 0.6s;
+    margin: 0.5%;
+    padding: 20px;
+    color: black;
 }
 
 .tarix:hover {
@@ -1254,7 +1260,7 @@
 }
 
 .tarix:hover p {
-    max-height: 100%;
+    max-height: 100px;
 }
 
 .ali {
@@ -1751,6 +1757,7 @@
     .login-container {
         width: 20%;
         display: flex;
+        cursor: pointer;
     }
     .container {
         width: 95%;
@@ -1758,7 +1765,6 @@
     }
     .hello-container {
         width: 100%;
-        background-color: black;
     }
     .hello-container div {
         width: 20%;
@@ -1766,6 +1772,7 @@
     }
     .write {
         width: 100%;
+        cursor: pointer;
     }
     .write-img {
         width: 100%;
@@ -1778,6 +1785,7 @@
         margin-left: 0;
     }
     .header-container li {
+        cursor: pointer;
         width: 30%;
         height: 32px;
     }
@@ -1799,10 +1807,10 @@
     }
     .right-container div img {
         padding: 10px;
+        cursor: pointer;
     }
     .mathematics {
         width: 100%;
-        background-color: red;
         display: flex;
         height: 450px;
     }
@@ -1848,22 +1856,24 @@
     .blue-img img {
         position: absolute;
         width: 27%;
-        top: 73%;
-        right: 18%;
+        top: 50%;
+        right: 19%;
+    }
+    .pink-img {
+        width: 88%;
     }
     .pink-img img {
         position: relative;
-        top: -10%;
-        left: 30%;
+        top: -18px;
+        left: 22%;
         z-index: 0;
-        width: 85%;
+        width: 100%;
     }
     .ellips-pink img {
         position: relative;
         width: 17%;
-        margin-top: 30px;
-        left: 13%;
-        right: 0;
+        margin-top: 20px;
+        left: 2%;
         z-index: 1;
     }
     .ellips-red img {
@@ -1875,33 +1885,37 @@
         right: 0;
         z-index: 1;
     }
+    .family-img {
+        margin-top: -5px;
+    }
     .family-img img {
-        width: 90%;
+        width: 92%;
         position: relative;
-        margin-top: 5px;
         z-index: 2;
+        left: 2%;
+        padding-bottom: 20px;
+        height: 177px;
     }
     .circle-img img {
         width: 14%;
         position: relative;
-        top: -490px;
+        top: -500px;
         bottom: 0;
-        left: 47%;
+        left: 42%;
         right: 0;
         z-index: 3;
     }
     .replay img {
         width: 5%;
         position: relative;
-        top: -527px;
+        top: -535px;
         bottom: 0;
-        left: 52%;
+        left: 47%;
         right: 0;
         z-index: 4;
     }
     .part-2 {
         width: 100%;
-        background-color: green;
         color: black;
         display: flex;
         justify-content: space-between;
@@ -1971,7 +1985,6 @@
     }
     .popular-course {
         width: 100%;
-        background-color: red;
         display: flex;
         justify-content: space-between;
     }
@@ -1994,7 +2007,6 @@
     }
     .main-container {
         width: 100%;
-        background-color: #671C7C;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -2010,7 +2022,7 @@
         margin-bottom: 15px;
         border-radius: 10px;
         justify-content: space-between;
-        transition: 0.6s;
+        transition: 1s;
     }
     .four-div:hover {
         box-shadow: 1px 1px 20px 1px rgba(56, 43, 43, 0.75);
@@ -2131,7 +2143,11 @@
         border-radius: 10px;
         margin-bottom: 10px;
         justify-content: space-between;
-        transition: 0.6s;
+        transition: 1s;
+    }
+    .wifi img {
+        padding: 6px;
+        border-radius: 15px;
     }
     .wifi:hover {
         box-shadow: 1px 1px 20px 1px rgba(56, 43, 43, 0.75);
@@ -2256,14 +2272,15 @@
     }
     .tund-benovweyi {
         width: 5%;
-        height: 40px;
+        height: 15px;
         position: absolute;
         z-index: 1;
-        left: 325px;
-        top: 24%;
+        left: 38%;
+        top: 25%;
     }
     .tund-benovweyi img {
         width: 100%;
+        margin-left: 13px;
     }
     .narinci {
         width: 5%;
@@ -2302,13 +2319,12 @@
     .yol {
         width: 100%;
         display: flex;
-        background-color: aqua;
+        margin-top: 20px;
         flex-wrap: wrap;
         justify-content: space-around;
     }
     .flip-card {
         width: 100%;
-        background-color: blue;
         background-color: transparent;
         width: 300px;
         height: 300px;
@@ -2328,18 +2344,16 @@
     }
     .online-imtahanlar {
         width: 100%;
-        background-color: chartreuse;
         text-align: center;
         margin-bottom: 30px;
     }
     .label-container {
         margin-top: 50px;
         width: 100%;
-        background-color: crimson;
         display: flex;
     }
     .parol {
-        width: 35%;
+        width: 39%;
         margin: 1%;
         border-radius: 5px;
         padding: 5px;
@@ -2350,8 +2364,7 @@
         box-shadow: 1px 1px 20px 1px rgba(56, 43, 43, 0.75);
     }
     .kod {
-        width: 35%;
-        margin: 1%;
+        width: 39%;
         padding: 5px;
         border-radius: 5px;
         transition: 0.6s;
@@ -2389,14 +2402,15 @@
         font-size: 11px;
     }
     .h3-b h2 {
+        font-size: 20px;
         width: 100%;
-        margin-left: 5px;
         margin-bottom: 15px;
     }
     .h4-c h2 {
         width: 100%;
-        margin-left: 5px;
         margin-bottom: 15px;
+        font-size: 20px;
+        margin-left: 0;
     }
     .h4-c p {
         width: 100%;
@@ -2416,6 +2430,7 @@
     .h3-b p {
         width: 100%;
         font-size: 11px;
+        margin-left: 5px;
         max-height: 0;
         overflow: hidden;
         transition: all 1s ease-in-out;
@@ -2503,7 +2518,6 @@
         display: flex;
         height: 500px;
         width: 100%;
-        background-color: #929191;
         margin: auto;
     }
     .uni {
@@ -2597,6 +2611,7 @@
         left: 55.4%;
         right: 0;
         z-index: 4;
+        cursor: pointer;
     }
     .ali {
         width: 7%;
@@ -2610,7 +2625,9 @@
         width: 100%;
         margin-top: 90px;
         color: black;
+        margin-bottom: 20px;
         margin-left: 0!important;
+        cursor: pointer;
     }
     .mezunllar p {
         width: 80%;
@@ -2620,7 +2637,6 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        background-color: gold;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
@@ -2632,6 +2648,7 @@
         background-color: white;
         padding: 20px;
         line-height: 19px;
+        cursor: pointer;
     }
     .riyaziyyat:hover {
         box-shadow: -1px -1px 6px 1px rgba(115, 107, 107, 0.46);
@@ -2657,6 +2674,7 @@
         padding: 20px;
         line-height: 19px;
         transition: 0.6s;
+        cursor: pointer;
     }
     .tarix:hover {
         box-shadow: -1px -1px 6px 1px rgba(115, 107, 107, 0.46);
@@ -2677,12 +2695,11 @@
     }
     .mezunllar {
         width: 100%;
-        background-color: hotpink;
+        cursor: pointer;
     }
     .jony {
         width: 100%;
         display: flex;
-        background-color: maroon;
         flex-wrap: wrap;
         justify-content: space-around;
         margin-top: 30px;
@@ -2692,7 +2709,8 @@
         margin: 0.5%;
         color: black;
         background-color: white;
-        height: 395px;
+        height: 400px;
+        cursor: pointer;
         transition: 0.5s all ease-in-out;
     }
     .hendese:hover {
@@ -2728,7 +2746,7 @@
         transition: all 0.9s ease-in-out;
     }
     .hendese:hover p {
-        max-height: 100%;
+        max-height: 100px;
     }
     .biologiya {
         width: 40%;
@@ -2736,7 +2754,8 @@
         color: black;
         transition: 0.6s all ease-in-out;
         background-color: white;
-        height: 395px;
+        height: 400px;
+        cursor: pointer;
     }
     .biologiya:hover {
         box-shadow: -1px -1px 6px 1px rgba(115, 107, 107, 0.46);
@@ -2772,7 +2791,7 @@
         transition: all 1s ease-in-out;
     }
     .biologiya:hover p {
-        max-height: 100%;
+        max-height: 100px;
     }
     .incir {
         width: 7%;
@@ -2783,7 +2802,6 @@
     }
     .ri-akademi {
         width: 100%;
-        background-color: mediumorchid;
         height: 400px;
         justify-content: space-between;
         display: flex;
@@ -2791,9 +2809,10 @@
         object-fit: cover;
     }
     .left-akademi {
-        width: 59%;
+        width: 65%;
         font-size: 15px;
         height: 340px;
+        cursor: pointer;
         margin-left: 0 !important;
     }
     .seo {
@@ -2816,6 +2835,7 @@
     .right-akademi {
         width: 60%;
         margin-right: 20px;
+        cursor: pointer;
     }
     .right-akademi img {
         width: 100%;
@@ -2833,7 +2853,6 @@
     .sertifikat {
         width: 100%;
         margin-top: 60px;
-        background-color: darkslateblue;
     }
     .sertifikat p {
         width: 100%;
@@ -2851,9 +2870,7 @@
     }
     .swiper {
         width: 100%;
-        height: 40%;
-        border: 0 !important;
-        border-radius: 0 !important;
+        height: 100%;
     }
     .swiper-slide {
         text-align: center;
@@ -2866,10 +2883,8 @@
     .swiper-slide img {
         display: block;
         width: 100%;
+        cursor: pointer;
         height: 100%;
-        object-fit: cover;
-        border: 0 !important;
-        border-radius: 0 !important;
     }
     .padding {
         width: 20%;
@@ -2877,26 +2892,27 @@
     }
     .sertifikat {
         text-align: center;
+        cursor: pointer;
     }
-    .jony {
+    .jon {
         width: 100%;
-        background-color: olivedrab;
         display: flex;
         flex-wrap: wrap;
-        margin: 0px !important;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-top: 30px;
-        margin-left: 0 !important;
     }
     .cemistry {
-        width: 30%;
+        width: 40%;
+        margin: 0.5%;
         color: black;
         background-color: white;
-        height: 360px;
         transition: 0.6s;
+        margin-top: 13px;
+        height: 330px;
+        cursor: pointer;
     }
     .cemistry:hover {
-        box-shadow: -1px -1px 6px 1px rgba(115, 107, 107, 0.46);
+        box-shadow: -2px -2px 8px 3px rgba(73, 68, 68, 0.46);
     }
     .cemistry img {
         width: 100%;
@@ -2913,10 +2929,10 @@
         margin-bottom: 13px;
         max-height: 0;
         overflow: hidden;
-        transition: all 1s ease-in-out;
+        transition: all 0.9s ease-in-out;
     }
     .cemistry:hover p {
-        max-height: 100%;
+        max-height: 100px;
     }
     .cemistry h4 {
         margin-left: 10px;
@@ -2927,15 +2943,17 @@
         font-size: 12px;
     }
     .scroll {
-        width: 30%;
-        background-color: blue;
+        width: 40%;
+        margin: 0.5%;
         color: black;
         background-color: white;
-        height: 360px;
+        height: 330px;
+        margin-top: 13px;
         transition: 0.6s;
+        cursor: pointer;
     }
     .scroll:hover {
-        box-shadow: -1px -1px 6px 1px rgba(115, 107, 107, 0.46);
+        box-shadow: -2px -2px 8px 3px rgba(73, 68, 68, 0.46);
     }
     .scroll img {
         width: 100%;
@@ -2967,15 +2985,18 @@
         font-size: 12px;
     }
     .jonat {
-        width: 30%;
-        background-color: blue;
+        width: 40%;
+        margin: 0.5%;
+        margin-top: 13px;
         color: black;
         background-color: white;
-        height: 360px;
-        transition: 0.6s;
+        margin-top: 13px;
+        height: 330px;
+        cursor: pointer;
+        transition: 0.6s all ease-in-out;
     }
     .jonat:hover {
-        box-shadow: -1px -1px 6px 1px rgba(115, 107, 107, 0.46);
+        box-shadow: -2px -2px 8px 3px rgba(73, 68, 68, 0.46);
     }
     .jonat img {
         width: 100%;
@@ -3031,4 +3052,15 @@
     .rbacade {
         width: 100%;
     }
+}
+
+@media screen and ( max-width:500px) {}
+
+.mySwiper .swiper-wrapper {
+    height: 200px;
+}
+
+.slider-image {
+    height: 100%;
+    width: 100%;
 }
